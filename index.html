@@ -12,8 +12,12 @@
 <body>
 <!-- header con un piccolo menu posizionato al estremo destra  -->
 <header>
-    <span><i class="fas fa-th"></i>speaker view     <i class="fas fa-expand-arrows-alt"></i></span>
-
+        <a href="">
+            <i class="fas fa-th"></i>speaker view
+        </a>     
+        <a href="">
+            <i class="fas fa-expand-arrows-alt"></i>
+        </a>
 </header>
 
 <!-- schermate utenti zoom con icona di microfono disattivato, 35 per l'esercizio -->
@@ -235,74 +239,93 @@
     <ul class="flex">
         <!-- lato sinistro -->
         <li>
-            <ul class="flex" >
-                <!-- attiva disattiva audio più piccolo menù -->
-                <li>
-                    <ul class="menù">
-                        <!-- numero voci sconosciuto -->
-                    </ul>
+            <ul class="flex cont" >
+                <!-- microfono -->
+                <li class="flex abuse">
+                    <a href=""><i class="fas fa-microphone"></i></a>
+                    <div> mute</div>
                 </li>
-                <!-- attiva e disattiva microfono più piccolo menù -->
-                <li>
-                    <ul class="menù">
-                        <!-- numero voci sconosciuto -->
-                    </ul>
+
+                <li class="flex abuse">
+                    <a href=""><i class="fas fa-angle-up fanatico"></i></a>
+                    
                 </li>
+
+                <!--  telecamera -->
+                <li class="flex abuse">
+                    <a href=""><i class="fas fa-video"></i></a>       
+                    <div> stop video</div>      
+                </li>
+
+                <li class="flex abuse">
+                    <a href=""><i class="fas fa-angle-up fanatico"></i></a>
+                </li class="flex abuse">
+
             </ul>
         </li> 
             <!-- parte centrale -->
         <li>  
-            <ul class="flex" >
+            <ul class="flex cont" >
+
                 <!-- invita -->
-                
-                <li >  
-                <!-- menù -->
-                    <ulclass="menù">
-                        <!-- numero voci sconosciuto -->
-                    </ul>
+                <li  class="flex abuse">  
+                    <a href=""><i class="fas fa-user-plus"></i></a>
+                    <div>invite</div>
                 </li>
+
                 <!-- partecipanti -->
-                <li>  
-                 <!-- menù -->
-                    <ul class="menù" >
-                        <!-- numero voci sconosciuto -->
-                    </ul>
+                <li class="flex abuse">  
+                    <a href=""><i class="fas fa-users"></i></a>
+                    <div>manage Participants</div>
                 </li>
+
                 <!-- poling ???? -->
-                <li>
-                    <!-- ma che roba è? -->
+                <li class="flex abuse">
+                    <a href=""><i class="fas fa-signal"></i></a>
+                    <div>polling</div>
                 </li>
+
                 <!-- share screen -->
-                <li>
-                    <!-- input importa file -->
+                <li class="flex abuse">
+                    <a href=""><i class="fas fa-share-square"></i></a>
+                    <div>share screen</div>
                 </li>
+
+                <li class="flex abuse">
+                    <a href=""><i class="fas fa-angle-up fanatico"></i></a>
+                </li>
+
+
+
                 <!-- chat -->
-                <li>
-                    <!-- allega menù chat alla piccola freccia -->
+                <li class="flex abuse">
+                    <a href=""><i class="fas fa-comments"></i></a>
+                    <div>chat</div>
                 </li>
+
                 <!-- registra -->
-                <li>
-                    <!-- aggiungi un allert -->
+                <li class="flex abuse">
+                    <a href=""><i class="fas fa-record-vinyl"></i></a>
+                    <div>record</div>
                 </li>
+
                 <!-- breckout room -->
-                <li>
-                    <!-- non ho idea di cosa sia -->
-                </li>
+                <li class="flex abuse">
+                    <a href=""><i class="fas fa-th-large"></i></a> 
+                    <div>Breakout Rooms</div>
+               </li>
+
                 <!-- menù -->
-                <li class="menù" >  
-                
-                    <ul>
-                        <!-- numero voci sconosciuto -->
-                    </ul>
+                <li class="menù flex abuse" >  
+                    <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                    <div>more</div>
                 </li>
             </ul>
         </li>
-        <li>
-
+        <li id="logo">
+            <span>non so </span>
         </li>
     </ul>
-
-
 
 </nav>
 
@@ -310,4 +333,6 @@
 <!-- non ho individuato alcun footer -->
 
 </body>
-</html>
+</html>     
+
+
