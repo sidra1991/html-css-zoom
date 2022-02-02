@@ -1,5 +1,6 @@
 *{
     margin:0;
+    padding: 0;
 }
 .flex{
     display: flex;
@@ -51,4 +52,48 @@ main {
     flex-basis: 150px;
 }
 
-nav 
+nav ul{
+    justify-content: space-between;
+    background-color: gray;
+    height: 10vh;
+    list-style: none;
+    margin:0;
+    align-items: center;
+}   
+
+nav {
+    list-style: none;
+    margin:0; 
+}
+
+nav i {
+    color: white;
+    font-size: 2rem;
+}
+
+
+#logo {
+    height: 100%;
+    width: 6rem;
+    color: red;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 3rem;
+    margin:0;
+}
+
+.cont {
+    justify-content: space-between;
+}
+
+.fanatico {
+    font-size: 1rem;
+}
+
+.green {
+    color: lime;
+}
+
+li {
+    margin-right: 0.5rem;
+}
