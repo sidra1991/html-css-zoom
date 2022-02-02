@@ -21,30 +21,24 @@ header span {
 
 header {
     width: 100vw;
-    height: 10vh;
-    background-color: wheat;
+    height: 5vh;
 }
 
 main {
     margin-left: 5vw;
     margin-right: 5vw;
     flex-wrap: wrap;
-    background-color: yellow;
     height: 80vh;
     justify-content: space-around;
-    align-items: space-between;
     overflow: hidden;
 }
 
 .schermata span{
-    display: inline-block;
     color: white;
     position: relative;
-    top:-40px;
-}
-
-.schermata i{
-    font-size: 2rem;
+    top: -1.5rem;
+    font-size: 0.8rem;
+    background-color: rgba(128, 128, 128, 0.5);
 }
 
 .schermata img{
@@ -53,7 +47,8 @@ main {
 }
 
 .schermata {
-    background-color: violet;
-    width: calc(( 100% / 7 ) - 2px );
     height: calc(( 100% / 5 ) - 2px );
+    flex-basis: 150px;
 }
+
+nav 
